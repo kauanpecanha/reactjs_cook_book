@@ -14,9 +14,16 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const SwiperCarousel = () => {
+    
+    const photos = [
+        {img: photo1, id: 1},
+        {img: photo2, id: 2},
+        {img: photo3, id: 3},
+    ]
+    
     return(
         <div className="container">
-        <h1>SwiperCarousel com Paginação, Navegação e </h1>
+        <h1>SwiperCarousel com Paginação e Navegação na Horizontal</h1>
 
         <Swiper slidesPerView={1} modules={[Navigation, Pagination, Scrollbar, A11y]} navigation pagination={{ clickable: true }} className="swiper">
             <SwiperSlide><img src={photo1}></img></SwiperSlide>
