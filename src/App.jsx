@@ -1,5 +1,5 @@
 import './App.css'
-import SwiperCarousel from "./modules/carousel/swiper"
+import SwiperCarousel from "./modules/carousel/swiper/navigation_pagination"
 function App() {
 
   return (

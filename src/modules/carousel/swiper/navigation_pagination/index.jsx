@@ -2,9 +2,9 @@
 
 import "./style.css"
 
-import photo1 from "./assets/photo1.jpg"
-import photo2 from "./assets/photo2.jpg"
-import photo3 from "./assets/photo3.jpg"
+import photo1 from "../assets/photo1.jpg"
+import photo2 from "../assets/photo2.jpg"
+import photo3 from "../assets/photo3.jpg"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
